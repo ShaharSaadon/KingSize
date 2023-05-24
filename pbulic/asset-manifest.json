@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6158c122.css",
-    "main.js": "/static/js/main.1dddeedc.js",
+    "main.css": "/static/css/main.775bc443.css",
+    "main.js": "/static/js/main.f5471801.js",
     "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
     "static/media/bedding-cover.jpg": "/static/media/bedding-cover.a9a77c7ad95db0fac9ca.jpg",
     "static/media/about-cover.jpg": "/static/media/about-cover.caf51d00bd5bbf6f4329.jpg",
@@ -40,12 +40,12 @@
     "static/media/facebook.svg": "/static/media/facebook.1fc810a8e15c60ec41d7d0586cb4c1d5.svg",
     "static/media/mail.svg": "/static/media/mail.6ac62bfa03e2a985535678e82ffed575.svg",
     "static/media/right-arrow.svg": "/static/media/right-arrow.377a106da674e91416bae8c48782bf17.svg",
-    "main.6158c122.css.map": "/static/css/main.6158c122.css.map",
-    "main.1dddeedc.js.map": "/static/js/main.1dddeedc.js.map",
+    "main.775bc443.css.map": "/static/css/main.775bc443.css.map",
+    "main.f5471801.js.map": "/static/js/main.f5471801.js.map",
     "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6158c122.css",
-    "static/js/main.1dddeedc.js"
+    "static/css/main.775bc443.css",
+    "static/js/main.f5471801.js"
   ]
 }
