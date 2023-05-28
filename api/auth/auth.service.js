@@ -56,11 +56,8 @@ function validateToken(loginToken) {
     logger.debug('GOT:', loginToken);
     const json = cryptr.decrypt(loginToken);
     const loggedinUser = JSON.parse(json);
-    console.log('Invalid login tokenbbb');
     return loggedinUser;
-  } catch (err) {
-    console.log('Invalid login tokenaaa');
-  }
+  } catch (err) {}
   return null;
 }
 
