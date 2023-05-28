@@ -21,7 +21,8 @@ const router = express.Router();
 router.get('/', log, getProducts);
 router.get('/:id', getProductById);
 router.post('/', requireAuth, addProduct);
-router.delete('/:id', requireAuth, requireAdmin, removeProduct);
+// router.delete('/:id', requireAuth, requireAdmin, removeProduct);
+router.delete('/:id', removeProduct);
 router.put('/:id', requireAuth, requireAdmin, updateProduct);
 
 // router.delete('/:id', requireAuth, removeProduct);

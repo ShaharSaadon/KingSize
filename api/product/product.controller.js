@@ -53,6 +53,7 @@ async function updateProduct(req, res) {
 
 async function removeProduct(req, res) {
   try {
+    console.log('req.params:', req.params);
     const productId = req.params.id;
     const removedId = await productService.remove(productId);
     res.send(removedId);

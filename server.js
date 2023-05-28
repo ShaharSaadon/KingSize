@@ -1,4 +1,3 @@
-const setupAsyncLocalStorage = require('./middlewares/setupAls.middleware');
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
@@ -31,7 +30,7 @@ const productRoutes = require('./api/product/product.routes');
 const { setupSocketAPI } = require('./services/socket.service');
 
 // routes
-// const setupAsyncLocalStorage = require('./middlewares/setupAls.middleware');
+const setupAsyncLocalStorage = require('./middlewares/setupAls.middleware');
 app.all('*', setupAsyncLocalStorage);
 
 app.use('/api/auth', authRoutes);
