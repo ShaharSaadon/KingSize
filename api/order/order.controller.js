@@ -63,10 +63,35 @@ async function removeOrder(req, res) {
     res.status(500).send({ err: 'Failed to remove order' });
   }
 }
+
+async function makePayment(req, res) {
+  const { orderId, amount, currency } = req.body;
+
+  // Ensure the parameters are valid
+  // Add your own validation here
+
+  const secretKey = process.env.PAYME_SECRET_KEY;
+  const md5Signature = createMd5Signature(orderId, amount, currency, secretKey);
+
+  const payload = {
+    orderId,
+    amount,
+    currency,
+    md5Signature,
+  };
+
+  try {
+    const response = await axios.post('https://payme/api/v1/sale', payload);
+    res.json(response.data);
+  } catch (err) {
+    res.status(500).json(err);
+  }
+}
 module.exports = {
   getOrders,
   getOrderById,
   addOrder,
   updateOrder,
   removeOrder,
+  makePayment,
 };

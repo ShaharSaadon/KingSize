@@ -3,6 +3,7 @@ const logger = require('../../services/logger.service');
 const utilService = require('../../services/util.service');
 const ObjectId = require('mongodb').ObjectId;
 const axios = require('axios');
+const crypto = require('crypto');
 
 async function query(filterBy = { category: '' }) {
   try {
@@ -68,10 +69,20 @@ async function generateSale(order) {
   }
 }
 
+function createMd5Signature(orderId, amount, currency, secretKey) {
+  const stringParameters = `${orderId}${amount}${currency}${secretKey}`;
+  const md5Signature = crypto
+    .createHash('md5')
+    .update(stringParameters)
+    .digest('hex');
+  return md5Signature;
+}
+
 module.exports = {
   remove,
   query,
   getById,
   add,
   generateSale,
+  createMd5Signature,
 };
