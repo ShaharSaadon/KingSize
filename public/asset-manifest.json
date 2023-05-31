@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.b64fa0a7.css",
-    "main.js": "/static/js/main.700215f9.js",
+    "main.css": "/static/css/main.7fac3587.css",
+    "main.js": "/static/js/main.806a889c.js",
     "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
     "static/media/AB_MakingSenseOfESGBondStructures-1600x760.w.jpg": "/static/media/AB_MakingSenseOfESGBondStructures-1600x760.w.07fb16831c0cc1cc4b0f.jpg",
     "static/media/towels.png": "/static/media/towels.42f53cc4566219bcb308.png",
+    "static/media/cottonCover.png": "/static/media/cottonCover.ea13524fa6a0a7c69fcc.png",
     "static/media/bedding-cover.jpg": "/static/media/bedding-cover.a9a77c7ad95db0fac9ca.jpg",
+    "static/media/teaser-1.jpeg": "/static/media/teaser-1.e7a7bb842f1b60b682a6.jpeg",
     "static/media/about-cover.jpg": "/static/media/about-cover.caf51d00bd5bbf6f4329.jpg",
     "static/media/Mukta-Regular.ttf": "/static/media/Mukta-Regular.8bfc1d2f11f1d87c38b0.ttf",
     "static/media/pillows.jpg": "/static/media/pillows.fe0050ed709935b016f9.jpg",
@@ -16,12 +18,11 @@
     "static/media/center-img.png": "/static/media/center-img.296073efa7157bdc271b.png",
     "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/blanket-img.png": "/static/media/blanket-img.ff9a347c113cb7449144.png",
-    "static/media/teaser-1.jpg": "/static/media/teaser-1.152265513d1bcc21fb74.jpg",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.94bb495fba6077f669ed.ttf",
+    "static/media/cotton.jpeg": "/static/media/cotton.4e9463f729569ecb7057.jpeg",
     "static/media/about.jpg": "/static/media/about.0f54a83e99ec11848210.jpg",
     "static/media/0.png": "/static/media/0.169c505d5229c994d6c0.png",
     "static/media/about-cover.avif": "/static/media/about-cover.7d0c0b48ec6735779d9b.avif",
-    "static/media/cotton.jpg": "/static/media/cotton.cc8a4391ee7a1501d5ec.jpg",
     "static/media/Cinzel-Regular.ttf": "/static/media/Cinzel-Regular.d923981e83fdcc636cd5.ttf",
     "static/media/bambuk-linen.jpg": "/static/media/bambuk-linen.13f27ad23d2bcc469034.jpg",
     "static/media/quality.png": "/static/media/quality.686775cd0ad959825a42.png",
@@ -37,12 +38,12 @@
     "static/media/person.svg": "/static/media/person.c9f7d89fd54a792a76504b0076cb22c9.svg",
     "static/media/mail.svg": "/static/media/mail.6ac62bfa03e2a985535678e82ffed575.svg",
     "static/media/right-arrow.svg": "/static/media/right-arrow.377a106da674e91416bae8c48782bf17.svg",
-    "main.b64fa0a7.css.map": "/static/css/main.b64fa0a7.css.map",
-    "main.700215f9.js.map": "/static/js/main.700215f9.js.map",
+    "main.7fac3587.css.map": "/static/css/main.7fac3587.css.map",
+    "main.806a889c.js.map": "/static/js/main.806a889c.js.map",
     "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b64fa0a7.css",
-    "static/js/main.700215f9.js"
+    "static/css/main.7fac3587.css",
+    "static/js/main.806a889c.js"
   ]
 }

@@ -62,43 +62,10 @@ async function removeProduct(req, res) {
     res.status(500).send({ err: 'Failed to remove product' });
   }
 }
-
-// async function addProductMsg(req, res) {
-//   const { loggedinUser } = req;
-//   try {
-//     const productId = req.params.id;
-//     const msg = {
-//       txt: req.body.txt,
-//       by: loggedinUser,
-//     };
-//     const savedMsg = await productService.addProductMsg(productId, msg);
-//     res.json(savedMsg);
-//   } catch (err) {
-//     logger.error('Failed to update product', err);
-//     res.status(500).send({ err: 'Failed to update product' });
-//   }
-// }
-
-// async function removeProductMsg(req, res) {
-//   const { loggedinUser } = req;
-//   try {
-//     const productId = req.params.id;
-//     const { msgId } = req.params;
-
-//     const removedId = await productService.removeProductMsg(productId, msgId);
-//     res.send(removedId);
-//   } catch (err) {
-//     logger.error('Failed to remove product msg', err);
-//     res.status(500).send({ err: 'Failed to remove product msg' });
-//   }
-// }
-
 module.exports = {
   getProducts,
   getProductById,
   addProduct,
   updateProduct,
   removeProduct,
-  // addProductMsg,
-  // removeProductMsg,
 };

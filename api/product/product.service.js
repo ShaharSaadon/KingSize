@@ -64,7 +64,8 @@ async function update(product) {
       category: product.category,
       sizes: product.sizes,
       colors: product.colors,
-      imURL: product.imgURL,
+      imgURL: product.imgURL,
+      shortDescription: product.shortDescription,
     };
     const collection = await dbService.getCollection('product');
     await collection.updateOne(
