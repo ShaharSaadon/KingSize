@@ -46,7 +46,7 @@ async function remove(orderId) {
 
 async function add(order) {
   try {
-    console.log('order:', order);
+    // The service connects to the database and adds the order
     const collection = await dbService.getCollection('order');
     await collection.insertOne(order);
     return order;
@@ -78,6 +78,19 @@ function createMd5Signature(orderId, amount, currency, secretKey) {
   return md5Signature;
 }
 
+async function tokenizeCard(cardDetails) {
+  try {
+    const response = await axios.post(
+      'https://payme/api/v1/tokenize',
+      cardDetails
+    );
+    return response.data;
+  } catch (err) {
+    logger.error('Failed to tokenize card', err);
+    throw err;
+  }
+}
+
 module.exports = {
   remove,
   query,
@@ -85,4 +98,5 @@ module.exports = {
   add,
   generateSale,
   createMd5Signature,
+  tokenizeCard,
 };

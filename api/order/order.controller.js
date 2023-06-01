@@ -32,9 +32,9 @@ async function addOrder(req, res) {
   const { loggedinUser } = req;
   try {
     const order = req.body;
+    // Here we call the order service to add the order
     const addedOrder = await orderService.add(order);
-    const sale = await orderService.generateSale(addedOrder);
-    res.json(sale);
+    res.json(addedOrder);
   } catch (err) {
     logger.error('Failed to add order', err);
     res.status(500).send({ err: 'Failed to add order' });
@@ -65,7 +65,7 @@ async function removeOrder(req, res) {
 }
 
 async function makePayment(req, res) {
-  const { orderId, amount, currency } = req.body;
+  const { orderId, amount, currency, cardToken } = req.body;
 
   // Ensure the parameters are valid
   // Add your own validation here
@@ -78,6 +78,7 @@ async function makePayment(req, res) {
     amount,
     currency,
     md5Signature,
+    cardToken,
   };
 
   try {
@@ -87,6 +88,18 @@ async function makePayment(req, res) {
     res.status(500).json(err);
   }
 }
+
+async function tokenizeCard(req, res) {
+  try {
+    const cardDetails = req.body;
+    const tokenizedCard = await orderService.tokenizeCard(cardDetails);
+    res.json(tokenizedCard);
+  } catch (err) {
+    logger.error('Failed to tokenize card', err);
+    res.status(500).send({ err: 'Failed to tokenize card' });
+  }
+}
+
 module.exports = {
   getOrders,
   getOrderById,
@@ -94,4 +107,5 @@ module.exports = {
   updateOrder,
   removeOrder,
   makePayment,
+  tokenizeCard,
 };

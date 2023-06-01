@@ -11,6 +11,7 @@ const {
   updateOrder,
   removeOrder,
   makePayment,
+  tokenizeCard,
 } = require('./order.controller');
 const router = express.Router();
 
@@ -19,8 +20,9 @@ const router = express.Router();
 
 router.get('/', log, getOrders);
 router.get('/:id', getOrderById);
-// router.post('/', addOrder);
+router.post('/', addOrder);
 router.post('/pay', makePayment);
+router.post('/card', tokenizeCard);
 router.delete('/:id', removeOrder);
 router.put('/:id', requireAuth, requireAdmin, updateOrder);
 
