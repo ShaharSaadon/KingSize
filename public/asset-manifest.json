@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.130357c1.css",
-    "main.js": "/static/js/main.cb78b1ea.js",
+    "main.js": "/static/js/main.f37560a0.js",
     "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
     "static/media/AB_MakingSenseOfESGBondStructures-1600x760.w.jpg": "/static/media/AB_MakingSenseOfESGBondStructures-1600x760.w.07fb16831c0cc1cc4b0f.jpg",
     "static/media/towels.png": "/static/media/towels.42f53cc4566219bcb308.png",
@@ -41,11 +41,11 @@
     "static/media/mail.svg": "/static/media/mail.6ac62bfa03e2a985535678e82ffed575.svg",
     "static/media/right-arrow.svg": "/static/media/right-arrow.377a106da674e91416bae8c48782bf17.svg",
     "main.130357c1.css.map": "/static/css/main.130357c1.css.map",
-    "main.cb78b1ea.js.map": "/static/js/main.cb78b1ea.js.map",
+    "main.f37560a0.js.map": "/static/js/main.f37560a0.js.map",
     "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.130357c1.css",
-    "static/js/main.cb78b1ea.js"
+    "static/js/main.f37560a0.js"
   ]
 }
