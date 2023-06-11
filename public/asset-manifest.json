@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.c1994c3c.css",
-    "main.js": "/static/js/main.06504080.js",
+    "main.css": "/static/css/main.2aac6fff.css",
+    "main.js": "/static/js/main.a0547fce.js",
     "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
-    "static/media/AB_MakingSenseOfESGBondStructures-1600x760.w.jpg": "/static/media/AB_MakingSenseOfESGBondStructures-1600x760.w.07fb16831c0cc1cc4b0f.jpg",
     "static/media/towels.png": "/static/media/towels.42f53cc4566219bcb308.png",
     "static/media/cottonCover.png": "/static/media/cottonCover.ea13524fa6a0a7c69fcc.png",
     "static/media/bedding-cover.jpg": "/static/media/bedding-cover.a9a77c7ad95db0fac9ca.jpg",
     "static/media/teaser-1.jpeg": "/static/media/teaser-1.e7a7bb842f1b60b682a6.jpeg",
     "static/media/happy.jpeg": "/static/media/happy.dae8c5e8c4835b896c3d.jpeg",
-    "static/media/about-cover.jpg": "/static/media/about-cover.caf51d00bd5bbf6f4329.jpg",
     "static/media/Mukta-Regular.ttf": "/static/media/Mukta-Regular.8bfc1d2f11f1d87c38b0.ttf",
     "static/media/pillows.jpg": "/static/media/pillows.fe0050ed709935b016f9.jpg",
     "static/media/teaser-2.jpg": "/static/media/teaser-2.09494d775305dfee6a3f.jpg",
@@ -22,7 +20,6 @@
     "static/media/cotton.jpeg": "/static/media/cotton.4e9463f729569ecb7057.jpeg",
     "static/media/about.jpg": "/static/media/about.0f54a83e99ec11848210.jpg",
     "static/media/0.png": "/static/media/0.169c505d5229c994d6c0.png",
-    "static/media/about-cover.avif": "/static/media/about-cover.7d0c0b48ec6735779d9b.avif",
     "static/media/bambuk.png": "/static/media/bambuk.7485c73037c73d1ea83f.png",
     "static/media/Cinzel-Regular.ttf": "/static/media/Cinzel-Regular.d923981e83fdcc636cd5.ttf",
     "static/media/cotton.png": "/static/media/cotton.69e66d698fddb6357d78.png",
@@ -40,12 +37,12 @@
     "static/media/person.svg": "/static/media/person.c9f7d89fd54a792a76504b0076cb22c9.svg",
     "static/media/mail.svg": "/static/media/mail.6ac62bfa03e2a985535678e82ffed575.svg",
     "static/media/right-arrow.svg": "/static/media/right-arrow.377a106da674e91416bae8c48782bf17.svg",
-    "main.c1994c3c.css.map": "/static/css/main.c1994c3c.css.map",
-    "main.06504080.js.map": "/static/js/main.06504080.js.map",
+    "main.2aac6fff.css.map": "/static/css/main.2aac6fff.css.map",
+    "main.a0547fce.js.map": "/static/js/main.a0547fce.js.map",
     "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1994c3c.css",
-    "static/js/main.06504080.js"
+    "static/css/main.2aac6fff.css",
+    "static/js/main.a0547fce.js"
   ]
 }
